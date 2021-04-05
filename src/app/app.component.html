@@ -1,8 +1,10 @@
 ﻿<!-- nav -->
 <nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
     <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/"><h1>Instrument store</h1></a>
         <a class="nav-item nav-link" routerLink="/">Home</a>
         <a class="nav-item nav-link" (click)="logout()">Logout</a>
+        <a class="nav-item nav-link" routerLink="/">cart</a>
     </div>
 </nav>
 
